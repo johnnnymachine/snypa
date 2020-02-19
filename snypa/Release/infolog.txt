@@ -1,0 +1,28 @@
+[     0.000708992] infolog.txt Opened
+[     0.000758848] Core.Core()
+[     0.000764928] Core.Init()
+[     0.000770688] Rend.Rend()
+[     0.000790208] Joystick.Joystick()
+[     0.000797248] CoreGLX.Init()
+[     0.001687104] GLXAttributes Set!
+[     0.080608064] Joystick.Init()
+[     0.138626776] Joystick Found: Logitech Logitech Dual Action: 6 Axes, 12 Button
+[     0.138652800] Rend.Init()
+[     0.139634712] Rend.SetBlend(1)
+[     0.139681024] <Error> Font File 'JetBrainsMono-Medium.ttf' not found.
+[     0.139692456] <Error> Font File 'JetBrainsMono-Medium.ttf' not found.
+[     0.139700560] <Error> Font File 'JetBrainsMono-Medium.ttf' not found.
+[     0.140373292] pPath.size() = 100
+[     0.140385944] Core.MainLoop()
+[     0.147069020] CoreGLX.Events() gXEvent.type = 21
+[     0.147086728] CoreGLX.Events() ConfigureNotify
+[     0.147094032] CoreGLX.Events() ConfigureNotify
+[     0.147099328] CoreGLX.Events() gXEvent.type = 19
+[     0.147104940] CoreGLX.Events() KeyRelease
+[     5.660196992] CoreGLX.Events() KeyPress
+[     5.676593344] Core.Destroy()
+[     5.676612544] CoreGLX.Destroy()
+[     5.695599552] Rend.Destroy()
+[     5.695619392] Joystick.Destroy()
+[     5.762629824] Core.~Core()
+[     5.762647808] Rend.~Rend()

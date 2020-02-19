@@ -1,0 +1,28 @@
+[     0.000045568] infolog.txt Opened
+[     0.000079616] Core.Core()
+[     0.000088192] Core.Init()
+[     0.000096000] Rend.Rend()
+[     0.000130560] Joystick.Joystick()
+[     0.000138368] CoreGLX.Init()
+[     0.056580544] Joystick.Init()
+[     0.112906560] Joystick Found: Logitech Logitech Dual Action: 6 Axes, 12 Button
+[     0.112929984] Rend.Init()
+[     0.113948864] Rend.SetBlend(1)
+[     0.114654848] pPath.size() = 100
+[     0.114668480] Core.MainLoop()
+[     0.119046016] CoreGLX.Events() gXEvent.type = 21
+[     0.119061440] CoreGLX.Events() ConfigureNotify
+[     0.119067840] CoreGLX.Events() ConfigureNotify
+[     0.119073152] CoreGLX.Events() gXEvent.type = 19
+[     0.119079424] CoreGLX.Events() KeyRelease
+[     6.321594048] CoreGLX.Events() KeyPress
+[     6.723228608] CoreGLX.Events() KeyPress
+[     6.873829248] CoreGLX.Events() KeyRelease
+[     6.940700800] CoreGLX.Events() KeyRelease
+[     9.316407392] CoreGLX.Events() KeyPress
+[     9.332876080] Core.Destroy()
+[     9.332897056] CoreGLX.Destroy()
+[     9.345762640] Rend.Destroy()
+[     9.345782896] Joystick.Destroy()
+[     9.408911440] Core.~Core()
+[     9.408930048] Rend.~Rend()
