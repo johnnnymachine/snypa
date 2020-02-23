@@ -5,7 +5,7 @@ You should be able to import it directy into Eclipse C++ IDE.
 
 I've been slowly coding this since 2010 or so.  
 
-Feel free to use it as you please.
+Feel free to use it as you please, at your own risk.
 
 It has joystick input (dual axis). You may need to remap the axis to suit your joystick. 
 
