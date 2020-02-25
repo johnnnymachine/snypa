@@ -98,9 +98,6 @@ bool Rend::Init()
 	else
 		p->Info("<Error> Rend.Init() - %s\n", sError.c_str());
 
-	vector<Point3D> *pPath = pBezier->GetPath();
-	p->Info("pPath.size() = %d\n", pPath->size());
-
 	return bActive = true;
 }
 
