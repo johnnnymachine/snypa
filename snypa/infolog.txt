@@ -1,23 +1,25 @@
-[     0.000062040] infolog.txt Opened
-[     0.000102160] Core.Core()
-[     0.000108256] Core.Init()
-[     0.000116744] Rend.Rend()
-[     0.000161272] Joystick.Joystick()
-[     0.000168296] CoreGLX.Init()
-[     0.064637016] Joystick.Init()
-[     0.064670440] Joystick Found: Logitech Logitech Dual Action: 6 Axes, 12 Button
-[     0.064682968] Rend.Init()
-[     0.067975408] Rend.SetBlend(1)
-[     0.119962192] pPath.size() = 100
-[     0.119976800] Core.MainLoop()
-[     0.128719904] CoreGLX.Events() gXEvent.type = 21
-[     0.128737680] CoreGLX.Events() ConfigureNotify
-[     0.128741744] CoreGLX.Events() ConfigureNotify
-[     0.128746064] CoreGLX.Events() gXEvent.type = 19
-[    16.457003376] CoreGLX.Events() ClientMessage
-[    16.473309104] Core.Destroy()
-[    16.473324464] CoreGLX.Destroy()
-[    16.483114288] Rend.Destroy()
-[    16.483133488] Joystick.Destroy()
-[    16.550457072] Core.~Core()
-[    16.550475952] Rend.~Rend()
+[     0.000031712] infolog.txt Opened
+[     0.000056992] Core.Core()
+[     0.000060704] Core.Init()
+[     0.000064384] Rend.Rend()
+[     0.000098656] Joystick.Joystick()
+[     0.000102624] CoreGLX.Init()
+[     0.153686112] Joystick.Init()
+[     0.153712032] Joystick Found: Logitech Gamepad F310: 8 Axes, 11 Button
+[     0.153720736] Rend.Init()
+[     0.154260576] Rend.SetBlend(1)
+[     0.252851040] Core.MainLoop()
+[     0.269462880] CoreGLX.Events() gXEvent.type = 21
+[     0.269472992] CoreGLX.Events() ConfigureNotify
+[     0.269477280] CoreGLX.Events() ConfigureNotify
+[     0.269482336] CoreGLX.Events() gXEvent.type = 19
+[     1.650584400] CoreGLX.Events() KeyPress
+[     2.361158176] Screenshot - screenshot00008.png saved
+[     2.361185696] CoreGLX.Events() KeyRelease
+[     4.084481760] CoreGLX.Events() ClientMessage
+[     4.100277920] Core.Destroy()
+[     4.100294816] CoreGLX.Destroy()
+[     4.152225632] Rend.Destroy()
+[     4.152248416] Joystick.Destroy()
+[     4.192632352] Core.~Core()
+[     4.192649696] Rend.~Rend()

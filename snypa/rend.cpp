@@ -457,7 +457,7 @@ void Rend::ScreenShot()
 	for(int y = 0; y < Height; y++)			// We need invert the image (Y-Axis), so load one row at a time and copy into buffer
 	{
 		glReadPixels(0, y, Width, 1, GL_RGBA, GL_UNSIGNED_BYTE, ImgDataRow);
-		memcpy(ImgData + ((Height - y) * Width * 4), ImgDataRow, Width * 4);
+		memcpy(ImgData + ((Height - y - 1) * Width * 4), ImgDataRow, Width * 4);
 	}
 
 	stbi_write_png(sFileName.c_str(), p->pCoreGLX->Width, p->pCoreGLX->Height, 4, ImgData, p->pCoreGLX->Width * 4);
